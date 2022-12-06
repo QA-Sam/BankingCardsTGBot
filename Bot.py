@@ -2,7 +2,7 @@ from telebot import TeleBot, types
 from faker import Faker
 
 
-bot = TeleBot(token='5892094752:AAHO-UVs-A-wt_n6BOTPy7mTOFMMn-i2dIQ', parse_mode='html')
+bot = TeleBot(token='token', parse_mode='html')
 
 faker = Faker()
 
@@ -58,3 +58,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
+    Auth:@QA-Sam
